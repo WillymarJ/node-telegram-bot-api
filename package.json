@@ -1,20 +1,16 @@
 {
-  "name": "node-telegram-bot-api",
-  "version": "0.28.0",
+  "name": "node-bot-telegram-api-nkg",
+  "version": "0.3.0",
   "description": "Telegram Bot API",
   "main": "./index.js",
   "directories": {
     "example": "examples",
     "test": "test"
   },
-  "keywords": [
-    "telegram",
-    "telegram bot",
-    "telegram bot api",
-    "bot"
-  ],
+  "keywords": ["telegram", "telegram bot", "telegram bot api", "bot"],
   "scripts": {
-    "gen-doc": "jsdoc2md --files src/telegram.js --template doc/api.hbs > doc/api.md",
+    "gen-doc":
+      "jsdoc2md --files src/telegram.js --template doc/api.hbs > doc/api.md",
     "build": "babel -d ./lib src",
     "prepublish": "npm run build && npm run gen-doc",
     "eslint": "eslint ./src ./test ./examples",
@@ -66,12 +62,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yagop/node-telegram-bot-api.git"
+    "url": "https://github.com/WillymarJ/node-telegram-bot-api.git"
   },
   "bugs": {
-    "url": "https://github.com/yagop/node-telegram-bot-api/issues"
+    "url": "https://github.com/WillymarJ/node-telegram-bot-api/issues"
   },
-  "homepage": "https://github.com/yagop/node-telegram-bot-api",
+  "homepage": "https://github.com/WillymarJ/node-telegram-bot-api",
   "contributors": [
     {
       "name": "Anton Mironov",

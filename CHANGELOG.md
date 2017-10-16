@@ -16,6 +16,12 @@ Added:
 
 ## [0.28.0][0.28.0] - 2017-08-06
 
+Fixed:
+
+1. (#325) Fix promise nkg
+1. (#363) Fix msg
+## [0.28.0][0.28.0] - 2017-08-06
+
 Added:
 
 1. (#361) Support Bot API v3.1 (by @Lord-Protector, @kamikazechaser)
